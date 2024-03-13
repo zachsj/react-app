@@ -1,0 +1,48 @@
+
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: rgb(15, 15, 15);
+    padding: 30px;
+    max-width: 500px;
+}
+.sWatch-display{
+    font-size: 7rem;
+    font-family: 'DigitalFont', Arial, sans-serif;
+    color: hsl(0, 9%, 85%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+.sWatch-controls button{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 4px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.sWatch-start-button{
+    background-color: hsl(115, 100%, 40%);
+}
+.sWatch-start-button:hover{
+    background-color: hsl(115, 100%, 35%);
+}
+.sWatch-stop-button{
+    background-color: hsl(10, 90%, 50%);
+}
+.sWatch-stop-button:hover{
+    background-color: hsl(10, 90%, 45%);
+}
+.sWatch-reset-button{
+    background-color: hsl(205, 90%, 60%);
+}
+.sWatch-reset-button:hover{
+    background-color: hsl(205, 90%, 55%);
+}

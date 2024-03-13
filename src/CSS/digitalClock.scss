@@ -1,0 +1,13 @@
+
+.clock-container{
+    backdrop-filter: blur(5px);
+    padding: 1px 0;
+
+}
+.clock{
+    color: rgba(243, 243, 243, 0.932);
+    font-size: 10rem;
+    font-family: 'DigitalFont', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}

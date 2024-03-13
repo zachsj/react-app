@@ -1,0 +1,27 @@
+
+.nav-buttons{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    background-color: hsl(198, 20%, 26%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;   
+    font-family: 'DigitalFont', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+@font-face {
+    font-family: 'DigitalFont';
+    src: url('/Pixellettersfull-BnJ5.ttf') format('truetype');
+  }
+  
+  .home {
+    text-align: center;
+    font-family: 'DigitalFont', Arial, sans-serif;
+    font-size: 4rem;
+  }
+
+
+
